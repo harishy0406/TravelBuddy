@@ -57,27 +57,27 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-300 hover:text-travel-teal transition-colors">
-                  Paris, France
+                  Jaipur, Rajasthan
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-travel-teal transition-colors">
-                  Tokyo, Japan
+                  New Delhi
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-travel-teal transition-colors">
-                  New York, USA
+                  Chennai, Tamil Nadu
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-travel-teal transition-colors">
-                  Bali, Indonesia
+                 Pondycherry
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-travel-teal transition-colors">
-                  Rome, Italy
+                  Shimla, Himachal pradesh
                 </a>
               </li>
             </ul>
@@ -88,18 +88,18 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-travel-teal shrink-0 mt-1" />
-                <span className="text-gray-300">123 Travel Street, Wanderlust City, TC 10111</span>
+                <span className="text-gray-300">VIT Vellore</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-travel-teal shrink-0" />
                 <a href="mailto:info@travelbuddy.com" className="text-gray-300 hover:text-travel-teal transition-colors">
-                  info@travelbuddy.com
+                  harivelgm76@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={20} className="text-travel-teal shrink-0" />
                 <a href="tel:+11234567890" className="text-gray-300 hover:text-travel-teal transition-colors">
-                  +1 (123) 456-7890
+                  +91 7889289504
                 </a>
               </li>
             </ul>

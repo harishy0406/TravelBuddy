@@ -66,7 +66,7 @@ const Contact = () => {
                 <Mail className="mx-auto mb-4 text-travel-teal" size={28} />
                 <h3 className="font-semibold mb-2">Email Us</h3>
                 <a href="mailto:info@travelbuddy.com" className="text-gray-600 hover:text-travel-teal">
-                  info@travelbuddy.com
+                  harivelgm76@gmail.com
                 </a>
               </div>
               
@@ -74,7 +74,7 @@ const Contact = () => {
                 <Phone className="mx-auto mb-4 text-travel-teal" size={28} />
                 <h3 className="font-semibold mb-2">Call Us</h3>
                 <a href="tel:+11234567890" className="text-gray-600 hover:text-travel-teal">
-                  +1 (123) 456-7890
+                  +91 7889289504
                 </a>
               </div>
               
@@ -82,8 +82,7 @@ const Contact = () => {
                 <MapPin className="mx-auto mb-4 text-travel-teal" size={28} />
                 <h3 className="font-semibold mb-2">Visit Us</h3>
                 <p className="text-gray-600">
-                  123 Travel Street<br />
-                  Wanderlust City, TC 10111
+                  VIT Vellore,Tamil Nadu
                 </p>
               </div>
             </div>

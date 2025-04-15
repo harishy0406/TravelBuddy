@@ -190,7 +190,7 @@ const TripForm = () => {
           <Input
             id="startingPoint"
             name="startingPoint"
-            placeholder="e.g. San Francisco, CA"
+            placeholder="e.g. Vellore, Tamil Nadu"
             value={formData.startingPoint}
             onChange={handleInputChange}
             className={errors.startingPoint ? "border-red-500" : ""}
@@ -205,7 +205,7 @@ const TripForm = () => {
           <Input
             id="destination"
             name="destination"
-            placeholder="e.g. Paris, France"
+            placeholder="e.g. Jaipur, Rajasthan"
             value={formData.destination}
             onChange={handleInputChange}
             className={errors.destination ? "border-red-500" : ""}

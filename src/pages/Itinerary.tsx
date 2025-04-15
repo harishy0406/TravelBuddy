@@ -239,11 +239,22 @@ const Itinerary = () => {
               </TabsContent>
               
               <TabsContent value="map">
-                <div className="text-center py-16 border border-gray-200 rounded-lg">
-                  <Map className="mx-auto text-travel-teal mb-4" size={48} />
-                  <h2 className="text-xl font-semibold mb-2 text-travel-navy">Map View Coming Soon</h2>
+              <div className="text-center py-16 border border-gray-200 rounded-lg">
+                  <div className="h-96 w-full mb-4">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      style={{ border: 0 }}
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227749.0004172819!2d75.65017305!3d26.885141399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1718787654321!5m2!1sen!2sin"
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                  </div>
+                  <h2 className="text-xl font-semibold mb-2 text-travel-navy">Explore Jaipur</h2>
                   <p className="text-gray-600 max-w-md mx-auto">
-                    We're working on an interactive map feature that will show all your destinations in a visual format.
+                    Discover all the beautiful destinations in the Pink City.
                   </p>
                 </div>
               </TabsContent>

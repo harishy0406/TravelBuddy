@@ -10,7 +10,7 @@ const Index = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="hero-section flex-grow bg-hero-pattern bg-cover bg-center relative">
+      <section className="hero-section min-h-[95vh] flex-grow bg-hero-pattern bg-cover bg-center relative">
         <div className="container mx-auto px-4 py-24 md:py-36 flex flex-col items-center text-center relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-poppins max-w-4xl">
             Your AI Travel Companion for Perfect Itineraries

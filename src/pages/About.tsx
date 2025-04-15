@@ -38,7 +38,7 @@ const About = () => {
                 </p>
                 
                 <p>
-                  Launched in 2023, we've combined advanced AI technology with travel expertise to build a 
+                  Launched in 2025, we've combined advanced AI technology with travel expertise to build a 
                   platform that creates personalized itineraries tailored to your unique preferences, budget, 
                   and travel style.
                 </p>
@@ -106,25 +106,21 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
               {[
                 {
-                  name: "Alex Morgan",
+                  name: "M Harish Gautham",
                   title: "Founder & CEO",
-                  image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&auto=format&fit=crop&q=80",
-                },
-                {
-                  name: "Jamie Chen",
-                  title: "CTO",
-                  image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&auto=format&fit=crop&q=80",
-                },
-                {
-                  name: "Sam Wilson",
-                  title: "Head of Travel",
                   image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&auto=format&fit=crop&q=80",
                 },
                 {
-                  name: "Taylor Reed",
-                  title: "AI Engineer",
-                  image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&auto=format&fit=crop&q=80",
+                  name: "Azmil Ashruff",
+                  title: "CTO",
+                  image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&auto=format&fit=crop&q=80",
                 },
+                {
+                  name: "Thomas",
+                  title: "Head of Travel",
+                  image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&auto=format&fit=crop&q=80",
+                },
+               
               ].map((member, index) => (
                 <div key={index} className="text-center">
                   <div className="mb-4 rounded-full overflow-hidden w-32 h-32 mx-auto">

@@ -41,11 +41,11 @@ export const generateItinerary = async (formData: TripFormData) => {
 export const mockItineraryData = {
   destination: "Jaipur, Rajasthan",
   tripDuration: 3,
-  totalCost: "85,000",
+  totalCost: "35,000",
   currency: "₹",
   bestTimeToVisit: "October to March",
   statistics: {
-    totalDistance: "250 km",
+    totalDistance: "1550 km",
     placesToVisit: 8,
     activitiesPlanned: 12,
     localCuisines: 6
@@ -65,7 +65,7 @@ export const mockItineraryData = {
         {
           name: "Amber Fort",
           description: "Magnificent hilltop fort known for its artistic Hindu style elements",
-          imageUrl: "https://images.unsplash.com/photo-1597053618139-8ac6de0d9346?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://www.flamingotravels.co.in/_next/image?url=https%3A%2F%2Fimgcdn.flamingotravels.co.in%2FImages%2FPlacesOfInterest%2FAmer-Fort-40.jpg&w=640&q=90",
           duration: "2-3 hours",
           address: "Devisinghpura, Amer, Jaipur",
           price: "500 per person" // Added price
@@ -73,7 +73,7 @@ export const mockItineraryData = {
         {
           name: "City Palace",
           description: "A beautiful blend of Rajasthani and Mughal architecture in the heart of Jaipur",
-          imageUrl: "https://images.unsplash.com/photo-1580715825973-33eb0511b5c6?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/96/8a/82/this-is-the-time-when.jpg?w=900&h=500&s=1",
           duration: "2 hours",
           address: "Tripoliya Bazaar, Near Jantar Mantar, Jaipur",
           price: "700 per person" // Added price
@@ -81,7 +81,7 @@ export const mockItineraryData = {
         {
           name: "Hawa Mahal",
           description: "Palace of Winds with its iconic honeycomb facade and 953 small windows",
-          imageUrl: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://media-cdn.tripadvisor.com/media/photo-s/0a/06/0b/66/hawa-mahal-travels-day.jpg",
           duration: "1 hour",
           address: "Hawa Mahal Rd, Badi Choupad, Jaipur",
           price: "250 per person" // Added price
@@ -94,7 +94,7 @@ export const mockItineraryData = {
           cuisine: "Rajasthani",
           price: "₹",
           cost: "150 - 250", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://s3-ap-southeast-1.amazonaws.com/img.tasteofcity.com/tasteimages/201508/image_original/B4FF1FD97759C2C3_lassi-6.jpg"
         },
         lunch: {
           name: "Spice Court",
@@ -102,7 +102,7 @@ export const mockItineraryData = {
           cuisine: "Rajasthani",
           price: "₹₹",
           cost: "400 - 600", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1564671546498-09a366692274?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://media-cdn.tripadvisor.com/media/photo-s/0d/ca/3d/49/the-spice-court.jpg"
         },
         dinner: {
           name: "Chokhi Dhani",
@@ -110,7 +110,7 @@ export const mockItineraryData = {
           cuisine: "Rajasthani",
           price: "₹₹₹",
           cost: "1,200 - 1,500", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/11/4c/a4/main-entrance.jpg?w=900&h=500&s=1"
         }
       },
       accommodation: {
@@ -118,7 +118,7 @@ export const mockItineraryData = {
         description: "Luxurious heritage hotel converted from a royal palace",
         price: "₹₹₹",
         amenities: ["Spa", "Fine Dining", "Swimming Pool", "Historic Architecture"],
-        imageUrl: "https://images.unsplash.com/photo-1582120021750-1b5b30d49e58?auto=format&fit=crop&q=80&w=800&h=600"
+        imageUrl: "https://www.remotelands.com/storage/media/3263/conversions/b130617007-banner-size.jpg"
       }
     },
     {
@@ -128,7 +128,7 @@ export const mockItineraryData = {
         {
           name: "Jantar Mantar",
           description: "UNESCO World Heritage site featuring the world's largest stone sundial",
-          imageUrl: "https://images.unsplash.com/photo-1612697082279-1abf45717050?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://s7ap1.scene7.com/is/image/incredibleindia/jantar-mantar-jaipur-rajasthan-2-attr-hero?qlt=82&ts=1726660181979",
           duration: "2 hours",
           address: "Gangori Bazaar, J.D.A. Market, Jaipur",
           price: "300 per person" // Added price
@@ -136,7 +136,7 @@ export const mockItineraryData = {
         {
           name: "Albert Hall Museum",
           description: "Oldest museum in Rajasthan with a rich collection of artifacts",
-          imageUrl: "https://images.unsplash.com/photo-1590732598610-9299864e337c?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://content-tourist.rajasthan.gov.in/uploads/albert_hall_museum_jaipur_entry_fee_timings_holidays_reviews_header_219f4b832f.jpg",
           duration: "2-3 hours",
           address: "Museum Rd, Ram Niwas Garden, Jaipur",
           price: "350 per person" // Added price
@@ -144,7 +144,7 @@ export const mockItineraryData = {
         {
           name: "Nahargarh Fort",
           description: "Historical fort offering panoramic views of Jaipur city",
-          imageUrl: "https://images.unsplash.com/photo-1627301517172-1b96d85bee7d?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://www.sunshineseeker.com/wp-content/uploads/2018/09/Jaipur-Nahargarh-Fort-Sunset-Restaurant.jpg",
           duration: "3 hours",
           address: "Krishna Nagar, Jaipur",
           price: "400 per person" // Added price
@@ -157,7 +157,7 @@ export const mockItineraryData = {
           cuisine: "Rajasthani",
           price: "₹",
           cost: "150 - 250", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1484300681262-5cca666b0954?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://rawatmisthanbhandar.in/assets/img/blog/related-post2.png"
         },
         lunch: {
           name: "Peacock Rooftop Restaurant",
@@ -165,7 +165,7 @@ export const mockItineraryData = {
           cuisine: "North Indian",
           price: "₹₹",
           cost: "500 - 800", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://d4t7t8y8xqo0t.cloudfront.net/app//resized/818X450/restaurant/646115/restaurant220250402094244.jpg"
         },
         dinner: {
           name: "1135 AD",
@@ -173,7 +173,7 @@ export const mockItineraryData = {
           cuisine: "Rajasthani Royal",
           price: "₹₹₹",
           cost: "2,000 - 2,500", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1486771586447-de892eecbb6e?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/2d/78/b0/all-that-glitters.jpg?w=800&h=500&s=1"
         }
       },
       accommodation: {
@@ -181,7 +181,7 @@ export const mockItineraryData = {
         description: "Luxurious heritage hotel converted from a royal palace",
         price: "₹₹₹",
         amenities: ["Spa", "Fine Dining", "Swimming Pool", "Historic Architecture"],
-        imageUrl: "https://images.unsplash.com/photo-1582120021750-1b5b30d49e58?auto=format&fit=crop&q=80&w=800&h=600"
+        imageUrl: "https://www.remotelands.com/storage/media/3263/conversions/b130617007-banner-size.jpg"
       }
     },
     {
@@ -191,7 +191,7 @@ export const mockItineraryData = {
         {
           name: "Jal Mahal",
           description: "Beautiful water palace situated in the middle of Man Sagar Lake",
-          imageUrl: "https://images.unsplash.com/photo-1599661046751-f222ffdc2b85?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://www.theleela.com/prod/content/assets/styles/tl_1920_735/public/aio-banner/dekstop/Explore-Jal-Mahal-in-Jaipur.jpg.webp?VersionId=9dIS_pzwVIqfhVw4HTPAjr592JegRVH1&itok=d6ZpGR-1",
           duration: "1 hour",
           address: "Amer Road, Jaipur",
           price: "100 per person" // Added price (viewing from outside)
@@ -199,7 +199,7 @@ export const mockItineraryData = {
         {
           name: "Birla Mandir",
           description: "Beautiful Hindu temple made of pure white marble",
-          imageUrl: "https://images.unsplash.com/photo-1578164614429-6c41ef5a6fd1?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://static.toiimg.com/photo/39669197.cms",
           duration: "1-2 hours",
           address: "Jawahar Lal Nehru Marg, Tilak Nagar, Jaipur",
           price: "Free entry" // Added price
@@ -207,7 +207,7 @@ export const mockItineraryData = {
         {
           name: "Johri Bazaar",
           description: "Famous market known for traditional Rajasthani jewelry, textiles, and crafts",
-          imageUrl: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=800&h=600",
+          imageUrl: "https://www.jaipurtaxiservices.com/blogtour/johari-bazaar-jaipur-a-must-visit-shopping-place.webp",
           duration: "2-3 hours",
           address: "Johri Bazar, Jaipur",
           price: "Shopping only" // Added price info
@@ -220,7 +220,7 @@ export const mockItineraryData = {
           cuisine: "Café",
           price: "₹₹",
           cost: "300 - 400", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1608649226842-f39257c9085f?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://allaboutjaipur.com/wp-content/uploads/2024/05/Untitled-design-4.png"
         },
         lunch: {
           name: "Niros",
@@ -228,7 +228,7 @@ export const mockItineraryData = {
           cuisine: "Multi-cuisine",
           price: "₹₹",
           cost: "600 - 900", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1613946069412-38f7f1ff0b65?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://media-cdn.tripadvisor.com/media/photo-s/01/d4/03/bf/niro-s.jpg"
         },
         dinner: {
           name: "Suvarna Mahal",
@@ -236,7 +236,7 @@ export const mockItineraryData = {
           cuisine: "Royal Indian",
           price: "₹₹₹",
           cost: "2,500 - 3,500", // Added actual cost
-          imageUrl: "https://images.unsplash.com/photo-1600335895229-6e75511892c8?auto=format&fit=crop&q=80&w=800&h=600"
+          imageUrl: "https://media-cdn.tripadvisor.com/media/photo-s/14/3a/e9/4d/a-fine-dining-experience.jpg"
         }
       },
       accommodation: {
@@ -244,7 +244,7 @@ export const mockItineraryData = {
         description: "Luxurious heritage hotel converted from a royal palace",
         price: "₹₹₹",
         amenities: ["Spa", "Fine Dining", "Swimming Pool", "Historic Architecture"],
-        imageUrl: "https://images.unsplash.com/photo-1582120021750-1b5b30d49e58?auto=format&fit=crop&q=80&w=800&h=600"
+        imageUrl: "https://www.remotelands.com/storage/media/3263/conversions/b130617007-banner-size.jpg"
       }
     }
   ]
